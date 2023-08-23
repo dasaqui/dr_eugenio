@@ -6,7 +6,5 @@ def fact( num):
         return 2
     elif num==3:
         return 6
-    elif num==4:
-        return 24
     else:
-        return 'too hard to compute'
+        return num * fact(num-1)
